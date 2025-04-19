@@ -72,9 +72,9 @@ using different:
 ## 📊 Results
 
 ### 🔹 K-Means Clustering
-- **Best Silhouette Score**: 0.4406 with `Transform + Norm + PCA` (3 clusters)
-- **Best Calinski-Harabasz Score**: 388.01 with `PCA` (3 clusters)
-- **Best Davies-Bouldin Score**: 0.7531 with `No Processing` (3 clusters)
+- **Best Silhouette Score**: 0.4963 with `Transform + Norm + PCA` (3 clusters)
+- **Best Calinski-Harabasz Score**: 387.01 with `PCA` (3 clusters)
+- **Best Davies-Bouldin Score**: 0.7533 with `No Processing` (3 clusters)
 - **Observation**: 
   - PCA significantly boosts CH index.
   - T+N+PCA yields the best all-round performance.
@@ -82,16 +82,16 @@ using different:
 
 ### 🔹 Hierarchical Clustering
 - **Best Silhouette Score**: 0.4492 with `No Processing` (3 clusters)
-- **Best Calinski-Harabasz Score**: 326.39 with `No Processing` (3 clusters)
-- **Best Davies-Bouldin Score**: 0.4363 with `Transform + PCA` (3 clusters)
+- **Best Calinski-Harabasz Score**: 352.83 with `No Processing` (3 clusters)
+- **Best Davies-Bouldin Score**: 0.6688 with `Transform + Norm + PCA` (4 clusters)
 - **Observation**:
   - Strong performance on raw data for Silhouette and CH.
   - Preprocessing helps reduce DB index, especially with PCA.
 
 ### 🔹 Mean Shift Clustering
-- **Best Silhouette Score**: 0.5425 with `PCA`
-- **Best Calinski-Harabasz Score**: 304.52 with `Transform + Norm + PCA`
-- **Best Davies-Bouldin Score**: 0.6238 with `Transform + Norm + PCA`
+- **Best Silhouette Score**: 0.5235 with `PCA`
+- **Best Calinski-Harabasz Score**: 357.80 with `PCA`
+- **Best Davies-Bouldin Score**: 0.6818 with `PCA`
 - **Observation**:
   - Highest Silhouette score among all algorithms.
   - Performs exceptionally with PCA and its combinations.
