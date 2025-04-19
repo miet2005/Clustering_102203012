@@ -63,8 +63,8 @@ using different:
 
 - `miet.ipynb` – Full Colab notebook with code and outputs
 - `README.md` – Project documentation
-- `results/` – Screenshots or tables (if added)
-- `plots/` – Graphs and cluster plots (if added)
+- `results/` – Screenshots or tables
+- `plots/` – Graphs and cluster plots
 
 ---
 
