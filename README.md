@@ -63,8 +63,7 @@ using different:
 
 - `miet.ipynb` – Full Colab notebook with code and outputs
 - `README.md` – Project documentation
-- `results/` – Screenshots or tables
-- `plots/` – Graphs and cluster plots
+- 'outputs_clustering' - Folder containing outputs (Heatmaps and Barplots)
 
 ---
 
